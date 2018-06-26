@@ -1,0 +1,8 @@
+{
+  "name": "thf-page-login-sample",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
