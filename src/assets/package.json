@@ -1,0 +1,39 @@
+{
+  "name": "@totvs/thf-theme",
+  "version": "1.6.0",
+  "tag": "dev",
+  "description": "TOTVS HTML Framework - Theme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://totvstfs.visualstudio.com/THF/_git/cdn-thf-core"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "build:all": "npm run build && npm run build:kendo",
+    "build:app": "gulp build:app",
+    "build:kendo": "gulp build --theme kendo",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.6.2",
+    "cssnano": "^3.10.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^1.1.0",
+    "gulp-inject-string": "^1.1.1",
+    "gulp-json-modify": "^1.0.2",
+    "gulp-minify": "^3.0.2",
+    "gulp-postcss": "^7.0.1",
+    "gulp-remove-empty-lines": "^0.1.0",
+    "gulp-rename": "^1.3.0",
+    "gulp-strip-css-comments": "^2.0.0",
+    "postcss-apply": "^0.10.0",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-import": "^11.1.0",
+    "postcss-nested": "^3.0.0",
+    "vinyl-paths": "^2.1.0",
+    "yargs": "^11.0.0"
+  }
+}

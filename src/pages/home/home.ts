@@ -7,6 +7,11 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  customField = {
+    property: 'domain',
+    placeholder: 'Enter your domain'
+  };
+
   constructor(public navCtrl: NavController) {
 
   }
